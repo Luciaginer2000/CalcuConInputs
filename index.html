@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+</head>
+<body>
+ <div class="calc-container">
+    <input type="number" id="uno" placeholder="número">
+    <input type="number" id="dos" placeholder="número">
+    <button onclick="captura()"id="enviar">Sumar</button>
+    <div class="resultado" id="insert-resultado"></div>
+</div>  
+   
+
+<div class="calc-container">
+    <input type="number" id="tres" placeholder=" número">
+    <input type="number" id="cuatro" placeholder="número">
+    <button onclick="restar()"id="enviar">Restar</button>
+    <div class="resultado" id="insert-resultado-resta"></div>
+</div>
+    
+<div class="calc-container">
+<input type="number" id="cinco" placeholder="número">
+    <input type="number" id="seis" placeholder="número">
+    <button onclick="multiplicar()"id="enviar">Multiplicar</button>
+    <div class="resultado" id="insert-resultado-multi"></div>
+</div>
+
+    <div class="calc-container">
+    <input type="number" id="siete" placeholder="número">
+    <input type="number" id="ocho" placeholder="número">
+    <button onclick="dividir()"id="enviar">Dividir</button>
+    <div class="resultado" id="insert-resultado-divi"></div>
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
